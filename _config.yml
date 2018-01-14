@@ -6,7 +6,7 @@ menu:
 rss: /atom.xml
 
 # footer底部显示联系邮箱（在博客配置文件下添加email配置也是一样的效果）
-email: 'youemail@outlook.com'
+email: 'igozhaokun@163.com'
 
 # 内容 Content
 excerpt_link: 继续阅读全文 »
@@ -17,19 +17,13 @@ fancybox: true
 social_title: Follow me
 # Social links 社交链接
 social:
-  github: https://github.com/giscafer
-  weibo: http://weibo.com/laohoubin
-  zhihu: http://www.zhihu.com/people/giscafer
-  email: 'youemail@outlook.com'
+  github: https://github.com/anxiaoyi
+  email: 'igozhaokun@163.com'
 
 # WeChat 微信公众号二维码url
 wechat_url: http://blog.giscafer.com/static/images/qrcode_giscafer.jpg ## 启用wechat widget才会生效
 
-
 # Friendly links 友情链接
-links:
-  giscafer's blog: http://blog.giscafer.com
-  GIS520社区: http://www.gis520.com
 
 # 侧边栏 Sidebar，目前仅支持right
 sidebar: right
@@ -49,7 +43,6 @@ widgets:
 - recent_posts
 - archive
 - friendly_link
-- wechat
 
 # 提供以下内置组件
 # - post_content      # 文章目录
@@ -85,21 +78,18 @@ tagcloud_color: false
 mathjax:
   enable: true
   per_page: false
-  cdn: https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
-
+  cdn: https://cdn.bootcss.com/mathjax/2.7.2/MathJax.js
 
 # 其他参数
 google_analytics:
 favicon: /favicon.png
-
 
 # comments 评论插件
 # 关闭统一为 false
 
 ## 网易云跟帖
 ### 使用说明 http://cafe.giscafer.com/2017/04/14/gentie-test/
-gentie_productKey: e2fb4051c49842688ce669e634bc983f
+gentie_productKey: false
 
 ## 畅言 (不使用请将appid和appkey都设空或者false)
 ### 使用说明：http://changyan.kuaizhan.com/static/help/
