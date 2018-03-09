@@ -1,10 +1,11 @@
 // https://github.com/chriskempson/tomorrow-theme
 
-highlight-background = #f5f2f0
+highlight-background = #c7edcc
 highlight-current-line = #efefef
 highlight-selection = #d6d6d6
-highlight-foreground = #4d4d4c
-highlight-comment = #8e908c
+highlight-foreground = #000
+highlight-comment = #808080
+highlight-title = #000
 highlight-red = #c82829
 highlight-orange = #f5871f
 highlight-yellow = #eab700
@@ -12,6 +13,7 @@ highlight-green = #718c00
 highlight-aqua = #3e999f
 highlight-blue = #4271ae
 highlight-purple = #8959a8
+highlight-idea-keyword-color = #000080
 /*highlight-background = #2d2d2d
 highlight-current-line = #393939
 highlight-selection = #515151
@@ -36,6 +38,7 @@ $code-block
   overflow: auto
   color: highlight-foreground
   line-height: font-size * line-height
+  font-weight: bold
 
 $line-numbers
   color: #666
@@ -126,8 +129,9 @@ $line-numbers
 
 pre
   .comment
-  .title
     color: highlight-comment
+  .title
+    color: highlight-title
   .variable
   .attribute
   .tag
@@ -172,4 +176,4 @@ pre
     color: highlight-blue
   .keyword
   .javascript .function
-    color: highlight-purple
+    color: highlight-idea-keyword-color
