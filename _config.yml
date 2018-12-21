@@ -42,7 +42,7 @@ widgets:
 - category
 - tagcloud
 - recent_posts
-- archive
+# - archive
 - friendly_link
 
 # 提供以下内置组件
